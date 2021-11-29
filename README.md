@@ -1,1 +1,1 @@
-![Alt text](https://github.com/aboimpinto/Avalonia.RoundCornerWindow/Screenshots/WindowWithRoundCorners.jpg "Window with round corners")
+![Alt text](https://github.com/aboimpinto/Avalonia.RoundCornerWindow/blob/master/Screenshots/WindowWithRoundCorners.png "Window with round corners")
