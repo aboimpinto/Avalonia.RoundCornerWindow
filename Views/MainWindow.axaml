@@ -10,7 +10,6 @@
     Title="Avalonia.RoundCornerWindow"
     TransparencyLevelHint="Transparent"
     Background="Transparent"
-    WindowStartupLocation="CenterScreen"
     HasSystemDecorations="False">
     
     <Design.DataContext>
@@ -18,11 +17,15 @@
     </Design.DataContext>
 
     <Panel>
-        <Border Background="#F8F5ED" CornerRadius="10" BorderThickness="2" BorderBrush="Black">
-            <TextBlock 
+        <Border 
+            Background="#F8F5ED" 
+            CornerRadius="10" 
+            BorderThickness="2" 
+            BorderBrush="Black" />
+
+        <TextBlock 
                 Text="{Binding Greeting}" 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center"/>
-        </Border>
     </Panel>
 </Window>
